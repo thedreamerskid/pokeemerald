@@ -20,6 +20,13 @@ PokeMart_No_Badges::
 	.2byte ITEM_MENTAL_HERB
 	.2byte ITEM_RED_CARD
 	.2byte ITEM_CELL_BATTERY
+        .2byte ITEM_FAST_BALL
+        .2byte ITEM_LEVEL_BALL
+        .2byte ITEM_LURE_BALL
+        .2byte ITEM_HEAVY_BALL
+        .2byte ITEM_LOVE_BALL
+        .2byte ITEM_FRIEND_BALL
+        .2byte ITEM_MOON_BALL
 	.2byte ITEM_NONE
 	release
 	end
