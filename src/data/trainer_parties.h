@@ -19803,19 +19803,18 @@ static const struct TrainerMonItemCustomMoves sParty_Glacia[] = {
     },
     {
     .lvl = 1,
-    .species = SPECIES_FROSLASS,
-    .heldItem = ITEM_LIGHT_CLAY,
-    .ability = 2, // Whiteout
-    .spread = SPREAD_31_IV_SPATK_SPEED_TIMID,
-    .moves = MOVE_SHADOW_BALL, MOVE_FREEZE_DRY, MOVE_PSYCHIC, MOVE_AURORA_VEIL
-    },
-    {
-    .lvl = 2,
     .species = SPECIES_WALREIN,
     .heldItem = ITEM_LEFTOVERS,
     .ability = 1, // Ice Body
     .spread = SPREAD_31_IV_HP_DEF_BOLD,
     .moves = MOVE_PROTECT, MOVE_SUBSTITUTE, MOVE_TOXIC, MOVE_SUPER_FANG
+    },
+    {
+    .lvl = 2,
+    .species = SPECIES_GLALIE,
+    .heldItem = ITEM_GLALITITE,
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_DOUBLE_EDGE, MOVE_STONE_EDGE, MOVE_EARTHQUAKE, MOVE_ICE_SHARD
     }
 };
 
